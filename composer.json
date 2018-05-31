@@ -1,5 +1,5 @@
 {
-    "name": "fluidtypo3/flux",
+    "name": "pengmaradi/flux",
     "description": "The flux package from FluidTYPO3",
     "type": "typo3-cms-extension",
     "homepage": "http://fluidtypo3.org",
@@ -16,23 +16,14 @@
             "FluidTYPO3\\Flux\\": "Classes/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "FluidTYPO3\\Flux\\Tests\\": "Tests/"
-        }
-    },
     "suggest": {
         "fluidtypo3/vhs": "ViewHelper library for Fluid templates.",
         "fluidtypo3/fluidpages": "Gives the ability to render Page Templates with pure fluid.",
         "fluidtypo3/fluidcontent_core": "Gives the ability to render core content elements with pure fluid."
     },
     "require": {
-        "php": ">=7.0.0",
-        "typo3/cms-core": "^8.7 || ^9 || dev-master",
-        "typo3/cms-fluid": "^8.7 || ^9 || dev-master",
-        "typo3/cms-backend": "^8.7 || ^9 || dev-master",
-        "typo3/cms-frontend": "^8.7 || ^9 || dev-master",
-        "typo3/cms-recordlist": "^8.7 || ^9 || dev-master"
+        "typo3/cms-core": ">=8",
+        "typo3/cms-recordlist": ">=8"
     },
     "replace": {
         "flux": "self.version",
